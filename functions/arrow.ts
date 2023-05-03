@@ -19,6 +19,11 @@ const example = (element: object): void => {
 	// Return nothing
 }
 
+// Example callback
+const tryCallback = (callback: () => void):void => {
+
+}
+
 // Declare function, but not define it
 let sayHello: (name: string) => void;
 sayHello = (name) => {

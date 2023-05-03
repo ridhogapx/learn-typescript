@@ -16,6 +16,9 @@ const noReturn = (param) => {
 const example = (element) => {
     // Return nothing
 };
+// Example callback
+const tryCallback = (callback) => {
+};
 // Declare function, but not define it
 let sayHello;
 sayHello = (name) => {
