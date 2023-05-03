@@ -3,7 +3,9 @@
 /* Vanilla Javascript */
 let sport = 'football';
 let id = 5;
-/* Set data type using ':' after declaring a variable */
+/* Typescript
+Set data type using ':' after declaring a variable
+*/
 let person = 'John';
 let phoneNumber = 62898989989;
 let isWeaboo = true;
