@@ -11,3 +11,8 @@ This will gave you error if you try to change the data type.
 person = 23;
 phoneNumber = '62898989';
  */
+/*
+In the other side, this will not give you error
+ */
+person = 'Ridho';
+phoneNumber = 12345678;
