@@ -32,3 +32,7 @@ This is simply turn back into plain / vanilla Javascript
 */
 let something: any[] = ['Foo', true, 23];
 
+/* Also you this way to define arrays that contain multiple data types */
+let anything: (number | string| object| boolean) = ["Ringo", 23, false];
+
+
