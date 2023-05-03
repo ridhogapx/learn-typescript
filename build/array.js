@@ -31,3 +31,11 @@ This is simply turn back into plain / vanilla Javascript
 let something = ['Foo', true, 23];
 /* Also you this way to define arrays that contain multiple data types */
 let anything = ["Ringo", 23, false];
+/* Tuple
+Tuple is an array with fixed size. Also, it's more strict than regular array
+ */
+let strictArr = [25, "Ridho", true];
+/*
+It will throw error if you define element that not match with data type
+let strictArr: [number, string, boolean] = ["Ridho", true, 25];
+ */
