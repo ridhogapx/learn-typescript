@@ -20,9 +20,11 @@ phoneNumber = '62898989';
 /*
 In the other side, this will not give you error
  */
-
  person = 'Ridho'
  phoneNumber = 12345678;
 
+// Any data types 
+let apapun:any = 'foo';
+apapun = 5;
 
  

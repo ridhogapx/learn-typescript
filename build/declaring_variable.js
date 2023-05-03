@@ -19,3 +19,6 @@ In the other side, this will not give you error
  */
 person = 'Ridho';
 phoneNumber = 12345678;
+// Any data types 
+let apapun = 'foo';
+apapun = 5;
