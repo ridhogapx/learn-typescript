@@ -17,5 +17,6 @@ Object properties data type must be match
  	major: 'Computer Networking',
  	nis: 12006,
  	isMale: true
- 	// isMale: 'laki-laki' --> This will gave you error
+ 	// isMale: 'laki-laki' ---> This will gave you error 
  }
+
