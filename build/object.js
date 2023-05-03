@@ -10,6 +10,6 @@ student = {
     name: 'Ridho Galih Pambudi',
     major: 'Computer Networking',
     nis: 12006,
-    isMale: true
+    isMale: true,
     // isMale: 'laki-laki' ---> This will gave you error 
 };
