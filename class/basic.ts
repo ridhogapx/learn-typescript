@@ -3,18 +3,19 @@ Example of classes
  */
 
 class Person {
-	id: number;
-	name: string;
-	isMale: boolean;
-
-	constructor(i: number, n: string, gender: boolean) {
-		this.id = i;
-		this.name = n;
-		this.isMale = gender;
-	}
+	constructor(readonly id: number, public name: string, readonly gender: boolean) {}
 
 	greeting() {
-		return `My name is ${this.name} and i'm a ${this.isMale ? 'boy' : 'girl'}`;
+		return `My name is ${this.name} and i'm a ${this.gender ? 'boy' : 'girl'}`;
+	}
+}
+
+class Designer extends Person{
+	private skills: string[];
+
+	constructor(id: number, name: string, gender: boolean, skills: string[]) {
+		super(id, name, gender );
+		this.skills = skills;
 	}
 }
 
