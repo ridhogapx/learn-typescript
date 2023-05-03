@@ -7,4 +7,10 @@ let id = 5;
 let person: string = 'John';
 let phoneNumber: number = 62898989989;
 
+/* 
+This will gave you error if you try to change the data type.
+person = 23;
+phoneNumber = '62898989';
+ */
+ 
 
