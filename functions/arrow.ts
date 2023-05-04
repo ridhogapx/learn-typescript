@@ -11,6 +11,7 @@ const myNum = (a: number, b?: number): number => {
 	}
 }
 
+// Void is a function that return nothing;
 const noReturn = (param: string):void => {
 	console.log(param);
 }

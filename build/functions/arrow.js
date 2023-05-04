@@ -10,6 +10,7 @@ const myNum = (a, b) => {
         return a;
     }
 };
+// Void is a function that return nothing;
 const noReturn = (param) => {
     console.log(param);
 };
